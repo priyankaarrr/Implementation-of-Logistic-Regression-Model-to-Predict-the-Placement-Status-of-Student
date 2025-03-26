@@ -9,8 +9,11 @@ To write a program to implement the the Logistic Regression Model to Predict the
 
 ## Algorithm
 1.import Required Libraries
+
 2.Load Dataset
+
 3.Preprocess Data 
+
 4.Split Data into Training & Testing Sets 
 
 ## Program:
@@ -31,8 +34,9 @@ data1.head()
 ```
 
 ![image](https://github.com/user-attachments/assets/fc4866ed-4abc-413c-9f26-68aad551c3a0)
-
+```
 data1.isnull().sum()
+```
 
 ![image](https://github.com/user-attachments/assets/151b57e5-49be-4d46-9e2f-c521b81c8ecc)
 
@@ -51,13 +55,15 @@ data1["status"]=le.fit_transform(data1["status"])
 data1
 ```
 ![image](https://github.com/user-attachments/assets/1b5331a9-76bb-4acd-b331-4446144522c5)
-
+```
 x=data1.iloc[:,:-1]
 x
+```
 ![image](https://github.com/user-attachments/assets/da97e4ce-15c1-416e-b634-f0c0a9249549)
-
+~~~
 y=data1["status"]
 y
+~~~
 
 ![image](https://github.com/user-attachments/assets/2c44d758-96c1-4d1a-a5e3-374d15c27f1e)
 ```
