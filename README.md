@@ -40,9 +40,9 @@ data1.isnull().sum()
 ```
 ## output
 ![image](https://github.com/user-attachments/assets/151b57e5-49be-4d46-9e2f-c521b81c8ecc)
-
+```
 data1.duplicated().sum()
-
+```
 ## output
 
 ![image](https://github.com/user-attachments/assets/cc1fe13a-d501-421f-8e98-1be544733278)
