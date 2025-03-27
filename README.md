@@ -21,10 +21,11 @@ To write a program to implement the the Logistic Regression Model to Predict the
 Developed by:priyanka R
 RegisterNumber:212223220081
 ```
+~~~
 import pandas as pd
 data=pd.read_csv("Placement_Data.csv")
 data.head()
-```
+~~~
 
 ![image](https://github.com/user-attachments/assets/ac75b79b-c191-4408-9c42-f15daad905f4)
 ```
@@ -69,6 +70,7 @@ y
 ```
 from sklearn.model_selection import train_test_split
 x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2,random_state=0)
+```
 ```
 from sklearn.linear_model import LogisticRegression
 lr=LogisticRegression(solver="liblinear")
